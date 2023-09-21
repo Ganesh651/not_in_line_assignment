@@ -38,3 +38,24 @@
       font-weight: 500;
       margin: 5px;
 }
+@media screen and (max-width: 768px) {
+      .expading-category{
+            margin-bottom: 20px;
+            width: 100px;
+            margin-right: 20px;
+      }
+      .expanding-container{
+            padding: 10px 20px;
+      }
+      .expanding-category-container{
+            justify-content: center;
+      }
+      .centers{
+            font-size: 15px;
+            line-height: 15px;
+      }
+      .count-of-centers{
+            font-size: 16px;
+            line-height: 16px;
+      }
+}

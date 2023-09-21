@@ -1,0 +1,90 @@
+      .why-choose-us-container{
+            background-image: url("https://res.cloudinary.com/dky69roxl/image/upload/v1695294217/Rectangle_22_tz5ql4.png");
+            padding: 10px 10px 0px 90px;
+            background-size: cover;
+      }
+      .details-container{
+            display: flex;
+      }
+      .card-container{
+            width: 70%;
+            display: flex;
+            flex-wrap: wrap;
+            
+      }
+      .card{
+            border-radius: 10px;
+            background-color: #FFF;
+            box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+            width: 280px;
+            height: 120px;
+            flex-shrink: 0;
+            padding: 10px;
+            position: relative;
+            margin-right: 30px;
+      }
+      .card-image-container img {
+            width: 50px;
+            height: 50px;
+            flex-shrink: 0;
+            background-color: #FFF;
+            border-radius: 50px;
+            position: absolute;
+            top: -30px;
+            right: -30px;
+            
+      }
+      .card-body-heading{
+            color: #2F2F2F;
+            font-family: "Roboto";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      width: 180px;
+      }
+      .card-body-description{
+            color: #2F2F2F;
+      font-family: "Roboto";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      width: 180px;
+      }
+      .card-1{
+            border-radius: 10px;
+            background-color: #FFF;
+            box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+            width: 280px;
+            height: 150px;
+            flex-shrink: 0;
+            padding: 10px;
+            position: relative;
+            margin-right: 10px;
+            position: relative;
+            bottom: -30px;
+      }
+      .doctor-image{
+            width:520px;
+            height: 507px;
+            flex-shrink: 0;
+
+      }
+      @media screen and (max-width: 768px){
+            .doctor-image{
+                  display: none;
+            }
+            .card-container{
+                  width: 100%;
+                  flex-direction: column;
+            }
+            .why-choose-us-container{
+            padding: 10px 20px;
+            }
+            .card-1{
+                  position: relative;
+                  margin-bottom: 60px;
+            }
+            .card{
+                  margin-right: 0;
+            }
+      }

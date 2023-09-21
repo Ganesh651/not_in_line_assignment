@@ -1,0 +1,28 @@
+.top-packages-container{
+      padding: 10px 10px 10px 60px;
+}
+.heading-section{
+      text-align: center;
+}
+.packages-description{
+      color: #6E6E6E;
+      font-family: "Montserrat";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+}
+.packages-list-container{
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+}
+@media  screen and (max-width: 768px) {
+      .packages-list-container{
+            flex-direction: column;
+      }
+      .top-packages-container{
+            padding: 10px 20px;
+      }
+      
+}

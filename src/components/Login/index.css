@@ -1,0 +1,242 @@
+.book-call-container{
+      background-image: linear-gradient(90deg, #75CFFF -17.97%, rgba(117, 207, 255, 0.00) 50%);
+      padding: 10px 10px 10px 90px;
+      display: flex;
+      align-items: center;
+}
+.form-container{
+      background-color: #ffffff;
+      width: 470px;
+      height: 420px;
+      flex-shrink: 0;
+      border-radius: 34px;
+      box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+      padding: 20px 60px 20px 20px;
+}
+.form-heading{
+      color: #2F2F2F;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 30px;
+      text-align: center;
+}
+.input-container{
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+}
+.form-icons{
+      margin-right: 10px;
+      width: 30px;
+      height: 30px;
+      flex-shrink: 0;
+      color: #138ED1;
+}
+.form-input{
+      border-radius: 5px;
+      background-color: #E3E3E3;
+      height: 20px;
+      outline: none;
+      width: 80%;
+      flex-shrink: 0;
+      border: 0;
+      padding: 10px;
+}
+.box{
+      height: 16px;
+      width: 16px;
+      border-color: #138ED1;
+      background-color: #138ED1;
+}
+.checkbox{
+      color: #2F2F2F;
+      font-family: Montserrat;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 25px; 
+      margin-left: 20px;
+}
+.proceed-button-container{
+      text-align: center;
+}
+.proceed-button{
+      width: 236px;
+      height: 42px;
+      flex-shrink: 0;
+      border-radius: 6px;
+      background-color: #138ED1;
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 25px;
+      border: 0;
+}
+.offers-container{
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      border-radius: 34px;
+      background-color: #00A6FF;
+      width: 600px;
+      height: 70px;
+}
+.left-container{
+      width: 470px;
+      height: 70px;
+      flex-shrink: 0;
+      border-radius: 35px;
+      border: 1px solid #FFF;
+      background-color: #00486C;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+}
+.right-container{
+      color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+}
+.best-class-container{
+      width: 50%;
+}
+.best-in-class{
+      color: #138ED1;
+      font-family: Montserrat;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 70px;
+}
+.heading{
+      color: #333;
+      font-family: Montserrat;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 70px;
+}
+.best-in-class-image{
+      width: 514px;
+      height: 521px;
+      flex-shrink: 0;
+}
+.lab-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+}
+.lab-image{
+      width: 60px;
+      height: 66px;
+      flex-shrink: 0;
+}
+.Accredited-lab-container{
+      display: flex;
+      align-items: center;
+      margin-right: 30px;
+}
+.free-lab-container{
+      display: flex;
+      align-items: center;
+}
+.lab-name{
+      color: #333;
+      font-family: Inter;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px; 
+}
+@media screen and (max-width: 768px){
+      .best-in-class-image{
+            display: none;
+      }
+      .book-call-container{
+            flex-direction: column;
+            padding: 10px 20px;
+      }
+      .best-class-container{
+            order: 1;
+      }
+      .offers-container{
+            order: 2;
+      }
+      .form-container{
+            order: 3;
+            width: 280px;
+            height: 270px;
+            flex-shrink: 0;
+            padding: 10px 20px;
+      }
+      .left-container{
+            width: 312px;
+            height: 35px;
+            
+      }
+      .offers-container{
+            width: 312px;
+            height: 35px;
+            flex-direction: column;
+      }
+      .lab-container{
+            flex-direction: column;
+            margin-top: 10px;
+      }
+      .heading{
+            font-size: 24px;
+            line-height: 35px;
+      }
+      .best-in-class{
+            font-size: 24px;
+            line-height: 35px;
+      }
+      .packages-description{
+            font-size: 10px;
+            line-height: 15px;
+      }
+     .lab-image{
+            width: 32px;
+      height: 34px;
+      flex-shrink: 0;
+     }
+     .lab-name{
+      font-size: 16px;
+      line-height: 24px;
+     }
+     .Accredited-lab-container{
+      margin-right: 0;    
+      }
+      .form-heading{
+            font-size: 14px;
+            line-height: 15px;
+      }
+      .input-container{
+            margin-bottom: 10px;
+      }
+      .form-input{
+            height: 15px;
+      }
+      .form-icons{
+            height: 20px;
+            width: 20px;
+      }
+      .checkbox{
+            font-size: 8px;
+            margin-left: 10px;
+      }
+      .proceed-button{
+            width: 156px;
+            height: 30px;
+            flex-shrink: 0;
+      }
+}
