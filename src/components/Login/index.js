@@ -14,6 +14,17 @@ const Login = ()=>{
             <>
             <div className='book-call-container'>
       <div>
+            <div className='mobile-heading-container'>
+            <h1 className='heading'><span className='best-in-class'>Best in class</span> lab tests!</h1>
+            </div>
+            <div className='mobile-offers-container'>
+                  <div className='left-container'>
+                        <p>Get a Full Body Checkup Now at</p>
+                  </div>
+                  <div  className='right-container'>
+                        <span style={{textDecoration:"line-through"}}>$5,999 </span><span> $999 </span><span>70% OFF</span> 
+                  </div>
+            </div>
       <form onSubmit={onFormSubmit}  className='form-container'>
             <h3 className='form-heading'>Fill in the details to get a call!</h3>
             <div className='input-container'>
