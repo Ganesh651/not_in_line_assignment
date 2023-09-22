@@ -53,7 +53,7 @@ const Login = ()=>{
                   <div className='left-container'>
                         <p>Get a Full Body Checkup Now at<span>$5,999</span><span> $999</span></p>
                   </div>
-                  <div className='right-container'>
+                  <div className='discount'>
                         <p>70% OFF</p>
                   </div>
             </div>

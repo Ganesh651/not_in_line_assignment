@@ -257,20 +257,23 @@ font-weight: 600;
       width: 200px;
       height: 33px;
       font-size: 10px;
-display: flex;
-justify-content: space-around;
-align-items: center;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
       
       }
       .left-container{
             color: #FFF;
-font-family: "Inter";
-font-size: 10px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-width: 312px;
-height: 44px;
+            font-family: "Inter";
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+            width: 312px;
+            height: 44px;
+      }
+      .discount{
+            display: none;
       }
 }
 @media screen and (min-width: 768px) {
@@ -282,5 +285,10 @@ height: 44px;
       }
       .right-container{
             display: none;
+      }
+      .discount{
+      color: #ffffff;
+      font-weight: 600;
+      font-family: "Roboto";
       }
 }
